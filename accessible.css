@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* Augmenta l'espai entre línies per millorar la llegibilitat */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003e7c;
+    border-bottom: 1px solid #dee2e6;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    /* Centra verticalment els elements del formulari */
+}
+
+form button {
+    background-color: #2074c7;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    /* Afegit per a una aparença més amigable del camp de text */
+    border: 1px solid #ccc;
+    /* Afegit per a una aparença més amigable del camp de text */
+}
+
+main {
+    padding: 20px;
+}
+
+label {
+    color:#ffffff;
+}
+
+article h1 {
+    color: #0065d1;
+    font-size: 2em;
+    /* Utilitza valors relatius per als mides de font per millorar l'accessibilitat */
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Afegit espai entre el títol de l'article i el contingut */
+}
+
+article h2 {
+    color: #0065d1;
+    font-weight: 300;
+    margin-top: 30px;
+    /* Afegit espai entre subtítols */
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    /* Afegit espai entre paràgrafs */
+}
+
+img {
+    max-width: 35%;
+    /* Assegura que les imatges no superin l'amplada del seu contenidor */
+    height: auto;
+    display: block;
+    /* Evita l'espai addicional sota les imatges */
+    margin: 0 auto;
+    /* Centra les imatges */
+}
