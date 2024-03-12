@@ -1,15 +1,29 @@
+/* Estils per a la pàgina de resultats dels tests */
+.test-results-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.test-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estils per a la pàgina principal */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     /* Augmenta l'espai entre línies per millorar la llegibilitat */
+    background-color: #270C0C;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #003e7c;
-    border-bottom: 1px solid #dee2e6;
+    background-color: #3d2929; /* Nou color de fons de la capçalera */
+    border-bottom: 1px solid #3d2929;
 }
 
 nav a {
@@ -25,7 +39,7 @@ form {
 }
 
 form button {
-    background-color: #2074c7;
+    background-color: #972e2e; /* Nou color del botó de cerca */
     color: #ffffff;
     border-radius: 8px;
     padding: 12px 24px;
@@ -52,7 +66,7 @@ label {
 }
 
 article h1 {
-    color: #0065d1;
+    color: #F15850;
     font-size: 2em;
     /* Utilitza valors relatius per als mides de font per millorar l'accessibilitat */
     font-weight: 300;
@@ -62,7 +76,7 @@ article h1 {
 }
 
 article h2 {
-    color: #0065d1;
+    color: #F15850;
     font-weight: 300;
     margin-top: 30px;
     /* Afegit espai entre subtítols */
@@ -72,6 +86,7 @@ article p {
     text-align: justify;
     margin-bottom: 20px;
     /* Afegit espai entre paràgrafs */
+    color: #E37554;
 }
 
 img {
